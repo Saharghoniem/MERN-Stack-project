@@ -91,6 +91,9 @@ input {
   font-size: 28px;
   margin: 10px;
 }
+.but{
+  width:150px;
+}
 
 button {
   height: 50px;

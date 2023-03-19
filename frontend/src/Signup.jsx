@@ -24,7 +24,7 @@ function SignUp() {
         <input type="email" id="email" value={email} onChange={(event) => setEmail(event.target.value)} />
         <label htmlFor="password">Password:</label>
         <input type="password" id="password" value={password} onChange={(event) => setPassword(event.target.value)} />
-        <button type="submit">Submit</button>
+        <button className='but' type="submit">Submit</button>
       </form>
     </div>
   );
