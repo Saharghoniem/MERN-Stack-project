@@ -58,7 +58,7 @@ signup-container {
 }
 
 h1 {
-  font-size: 30px;
+  font-size: 20px;
   margin-bottom: 30px;
   display: flex;
   justify-content: center;
@@ -93,7 +93,6 @@ input {
 }
 
 button {
-  width: 150px;
   height: 50px;
   background-color: #0077cc;
   color: #fff;
@@ -168,7 +167,7 @@ transform: translateY(0);
   display: flex;
 }
 .main-link {
-  width:160px;
+  width:75px;
   text-decoration: none;
   padding: 10px 10px;
   margin: 10px;

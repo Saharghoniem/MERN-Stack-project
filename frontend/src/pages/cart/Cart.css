@@ -4,10 +4,10 @@
   align-content: center;
   align-items: center;
 
-  border-top: 2px solid rgb(109, 176, 221);
+  border-top: 7px solid rgb(109, 176, 221);
 
-  width: 500px;
-  margin: 50px auto;
+  width: 700px;
+  margin: 7px auto;
 
   color: rgb(0, 0, 0) !important;
   background-color: rgb(255, 255, 255) !important;
@@ -20,16 +20,15 @@
 }
 
 .img-title-parent img {
-  border-radius: 3px;
-  width: 120px;
+  border-radius: 6px;
+  width: 100px;
   height: 90px;
-  margin: 4px 0 1px 0;
-  margin-left: 20px;
+  margin: 2px 0 1px 0;
 }
 
 .img-title-parent p {
-  font-size: 15px;
-  margin-right: 5px;
+  padding-right: 5px !important;
+  display: inline-block;
 }
 
 .price {
@@ -42,14 +41,14 @@
 
 @media (max-width: 800px) {
   .item-container {
-    width: 380px;
+    width: 500px;
   }
 
   .price {
-    font-size: 15px;
+    font-size: 18px;
   }
 
   .img-title-parent p {
-    font-size: 10px;
+    font-size: 13px;
   }
 }

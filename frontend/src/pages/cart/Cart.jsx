@@ -46,7 +46,7 @@ const Cart = () => {
 
             <div style={{ display: "flex", alignItems: "center" }}>
               <IconButton
-                sx={{ color: "#1976d2", ml: "10px" }}
+                sx={{ color: "#1976d2", ml: "5px" }}
                 onClick={() => {
                   dispatch(increaseQuantity(item));
                 }}
@@ -57,7 +57,7 @@ const Cart = () => {
               <StyledBadge badgeContent={item.quantity} color="secondary" />
 
               <IconButton
-                sx={{ color: "#1976d2", mr: "10px" }}
+                sx={{ color: "#1976d2", mr: "5px" }}
                 onClick={() => {
                   dispatch(decreaseQuantity(item));
                 }}
@@ -96,7 +96,10 @@ const Cart = () => {
         );
       })}
 
-      <Paper sx={{ width: "300px", mx: "auto", mt: "30px" }}>
+
+      {/* //part 2 */}
+
+      <Paper sx={{ width: "200px", mx: "auto", mt: "30px" }}>
         <Typography align="center" p={2} variant="h6">
           Cart Summary
         </Typography>

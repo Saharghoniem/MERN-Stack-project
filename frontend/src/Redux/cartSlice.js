@@ -101,14 +101,14 @@ export const counterSlice = createSlice({
       const newArr = state.selectedProducts.filter((item) => {
         return item.id !== action.payload.id;
       });
-
+          // يقوم بالحذف عندما يكون الكونتيتى تساوى صفر
       const newArr2 = state.selectedProductsID.filter((item) => {
         return item !== action.payload.id;
       });
 
       state.selectedProducts = newArr;
       state.selectedProductsID = newArr2;
-
+          // يقوم بالتحديث
       localStorage.setItem(
         "selectedProductsID",
         JSON.stringify(state.selectedProductsID)

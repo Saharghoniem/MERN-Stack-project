@@ -72,7 +72,7 @@ const products = [
   },
   {
   id: 6,
-    productName: "jwellery",
+    productName: "jewelry",
     description:
       "Lorem ipsum, dolor sit amet consectetur adipisicing elite. Sequi, perferendis beatae asperiores Lorem ipsum, dolor sit amet consectetur adipisicing elite. Sequi, perferendis beatae asperiores..",
     price: 350,
@@ -100,7 +100,7 @@ const products = [
   },
   {
     id: 8,
-      productName: "rougogo",
+      productName: "Blush",
       description:
         "Lorem ipsum, dolor sit amet consectetur adipisicing elite. Sequi, perferendis beatae asperiores Lorem ipsum, dolor sit amet consectetur adipisicing elite. Sequi, perferendis beatae asperiores..",
       price: 600,
