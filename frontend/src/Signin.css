@@ -1,0 +1,185 @@
+
+ /* sign in , sign out  */
+ .login {
+  width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color:rgb(162, 175, 195);
+  border-radius: 20px;
+}
+
+.login h2 {
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-size: 30px;
+  color:#0077cc;
+}
+
+.login label {
+  display: block;
+  margin-bottom: 5px;
+
+}
+
+.login input[type="text"],
+.login input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  align-items: center;
+}
+
+.login button[type="submit"] {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-top: 20px;
+  border: none;
+  border-radius: 15px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.login button[type="submit"]:hover {
+  background-color:#0077cc !important;
+}
+
+/* sign up */
+
+signup-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+
+h1 {
+  font-size: 30px;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  color:  #0077cc;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color:rgb(162, 175, 195);
+  border-radius: 20px;
+  margin-bottom: 30px;
+
+}
+
+label {
+  margin-top: 10px;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+input {
+  width: 400px;
+  height: 50px;
+  border: none;
+  border-radius: 15px;
+  margin-bottom: 20px;
+  padding-left: 10px;
+  font-size: 28px;
+  margin: 10px;
+}
+
+button {
+  width: 150px;
+  height: 50px;
+  background-color: #0077cc;
+  color: #fff;
+  border: none;
+  border-radius: 25px;
+  font-size: 24px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+button:hover {
+  background-color: #73b7e7;
+}
+
+
+
+
+
+
+.forgot-password{
+  background-color: whitesmoke;
+  /* width: 400px; */
+  height: 333px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  
+  scale: 0;
+  transform: translateY(-100vh);
+  transition: 1s;
+}
+
+ 
+.show-forgot-password{
+scale: 1;
+transform: translateY(0);
+
+}
+
+.forgot-pass{
+  font-size: 19px;
+  cursor: pointer;
+  font-weight: normal;
+}
+
+.forgot-pass:hover{
+  font-size: 20px;
+ 
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close .fa-xmark{
+  font-size: 29px;
+  color: #444;
+  position: absolute;
+  top: 17px;
+  right: 22px;
+}
+
+.close .fa-xmark:hover{
+  color: orange;
+  font-size: 30px;
+  transform: rotate(180deg);
+  transition: 0.3s;
+}
+
+/* Appbar */
+.main {
+  display: flex;
+}
+.main-link {
+  width:160px;
+  text-decoration: none;
+  padding: 10px 10px;
+  margin: 10px;
+  color: #fff;
+  background-color:rgb(62, 116, 174);
+  border-radius: 20px;
+  transition: all 0.3s ease-in-out;
+text-align: center;}
+
+.main-link:hover {
+  background-color: #1519ec79;
+  cursor: pointer;
+}
+
